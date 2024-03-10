@@ -278,6 +278,38 @@
 </div>
 
 
+  <!-- Custom -->
+  <div class="custom mx-auto">
+    <hr><p>在下方留言申请加入我的友链，按如下格式提供信息：</p><ul><li>博客名：Fluid</li><li>简介：Fluid 主题官方博客</li><li>链接：https://hexo.fluid-dev.com</li><li>图片：https://hexo.fluid-dev.com/img/favicon.png</li></ul>
+  </div>
+
+
+
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="gitalk-container"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#gitalk-container', function() {
+      Fluid.utils.createCssLink('/css/gitalk.css')
+      Fluid.utils.createScript('https://lib.baomitu.com/gitalk/1.8.0/gitalk.min.js', function() {
+        var options = Object.assign(
+          {"clientID":"b2164a0990491922cc79","clientSecret":"c38d4a4d2b36f4f40dddc6d29c72ba71ede19e93","repo":"https://github.com/cudhvgwjhgaeh/iss","owner":"cudhvgwjhgaeh","admin":["Aiden"],"language":"zh-CN","labels":["Gitalk"],"perPage":10,"pagerDirection":"last","distractionFreeMode":false,"createIssueManually":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},
+          {
+            id: '38687fdbcd50268b872dd8c493f739e6'
+          }
+        )
+        var gitalk = new Gitalk(options);
+        gitalk.render('gitalk-container');
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
 
 
 
@@ -323,10 +355,6 @@
 
   <footer>
     <div class="footer-inner">
-  
-    <div class="footer-content">
-       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
-    </div>
   
   
   
